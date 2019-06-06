@@ -30,20 +30,6 @@
 /* =Common Styles
 -------------------------------------------------------------- */
 
-@font-face {
-    font-family: 'azedobold';
-    src: url('../fonts/azedo-bold-webfont.eot');
-    src: url('../fonts/azedo-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/azedo-bold-webfont.woff2') format('woff2'), url('../fonts/azedo-bold-webfont.woff') format('woff'), url('../fonts/azedo-bold-webfont.ttf') format('truetype'), url('../fonts/azedo-bold-webfont.svg#azedobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'azedolight';
-    src: url('../fonts/azedo-light-webfont.eot');
-    src: url('../fonts/azedo-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/azedo-light-webfont.woff2') format('woff2'), url('../fonts/azedo-light-webfont.woff') format('woff'), url('../fonts/azedo-light-webfont.ttf') format('truetype'), url('../fonts/azedo-light-webfont.svg#azedolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -123,7 +109,7 @@ a:focus {
 }
 a:hover,
 a:focus {
-    color: #7beec7;
+    color: #a9a9a9;
     text-decoration: none;
 }
 a,
@@ -183,7 +169,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Arial', sans-serif;
     letter-spacing: 1.3pt;
     color: #111111;
     clear: both;
@@ -298,14 +284,14 @@ ul.sublist {
     color: #111111;
     font-weight: 100;
     font-size: 18px;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Arial', sans-serif;
     border: 1px solid #f4f4f4;
     display: inline-block;
     width: 100%;
 }
 .pagination-ef li a:hover {
     color: #333;
-    background-color: #7beec7;
+    background-color: #a9a9a9;
 }
 .pagination-ef li {
     line-height: 48px;
@@ -315,7 +301,7 @@ ul.sublist {
     text-align: center;
 }
 .pagination-ef li.current a, .pagination-ef li span.page-numbers.current {
-    background-color: #7beec7;
+    background-color: #a9a9a9;
 }
 .pagination-ef i {
     font-size: 30px;
@@ -489,13 +475,13 @@ a:hover>span.site-name{
     margin-left: 6%;
 }
 .slider-description-inner h1 {
-    font-family: 'azedobold';
+    font-family: 'Arial';
     font-size: 60px;
     letter-spacing: 8px;
 }
 .slider-description-inner h1 span {
-    font-family: 'azedolight';
-    background: #7beec7;
+    font-family: 'Arial';
+    background: #a9a9a9;
     padding: 22px;
     font-weight: 100;
     margin-left: 10px;
@@ -553,7 +539,7 @@ a:hover>span.site-name{
     background-color: #000;
 }
 .cd-headline.clip b {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Arial', sans-serif;
     opacity: 0;
 }
 .cd-headline.clip b.is-visible {
@@ -582,7 +568,7 @@ a:hover>span.site-name{
 .header-page .inner-content .header-content h1 {
     text-align: center;
     font-size: 60px;
-    font-family: 'azedobold', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 .header-page .inner-content .header-content hr {
     float: none;
@@ -723,7 +709,7 @@ svg {
     left: 0;
 }
 .slider .slide .slide__overlay-path {
-    fill: #7beec7;
+    fill: #a9a9a9;
 }
 .slider .slide:nth-child(2) {
     left: 100%;
@@ -831,7 +817,7 @@ svg {
 }
 .slide__text-heading {
     font-size: 48px;
-    font-family: 'azedobold';
+    font-family: 'Arial';
     text-transform: uppercase;
     font-weight: 800;
     dispay: block;
@@ -841,7 +827,7 @@ svg {
     letter-spacing: 4.5pt;
 }
 span.border-text {
-    font-family: 'azedolight';
+    font-family: 'Arial';
     font-weight: 100;
     color: #fff;
     border: 2px solid #fff;
@@ -851,7 +837,7 @@ span.border-text {
 }
 .slide__text p {
     font-size: 24px;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Arial', sans-serif;
     padding-top: 30px;
     line-height: 30px;
     color: #111111;
@@ -875,7 +861,7 @@ span.border-text {
     font-size: 60px;
     font-weight: 100;
     line-height: 60px;
-    font-family: 'azedolight', sans-serif;
+    font-family: 'Arial', sans-serif;
     letter-spacing: 2.5pt;
 }
 .slider-controls {
@@ -891,7 +877,7 @@ span.border-text {
 }
 .slider-controls a:hover,
 .slider-controls a i:hover {
-    color: #7beec7;
+    color: #a9a9a9;
 }
 /* =Menu right
 -------------------------------------------------------------- */
@@ -919,7 +905,7 @@ span.border-text {
 }
 .close-menu:hover,
 .search-icon:hover {
-    color: #7beec7;
+    color: #a9a9a9;
 }
 /* search */
 .js-ui-search input[type="text"] {
@@ -1059,7 +1045,7 @@ span.border-text {
 }
 .menu-wrap a:hover,
 .menu-wrap a:focus {
-    color: #7beec7;
+    color: #a9a9a9;
 }
 .content-wrap {
     -webkit-overflow-scrolling: touch;
@@ -1239,9 +1225,9 @@ span.border-text {
     transform: translate3d(3000px, 0, 0);
 }
 .menu-list ul li a {
-    font-weight: 900;
+    font-weight: 300;
     font-size: 30px;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Arial', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2.5pt;
     transition: all 350ms cubic-bezier(0.215, .61, .215, 1);
@@ -1384,7 +1370,7 @@ ul.sub-menu li a {
     bottom: 18px;
 }
 .menu-information p {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Arial', sans-serif;
     color: #fff;
     padding-left: 71px;
     line-height: 18px;
@@ -1403,7 +1389,7 @@ ul.sub-menu li a {
     list-style: none;
     color: #fff;
     letter-spacing: 2.5pt;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 .menu-information ul li span {
     padding-right: 15px;
@@ -1479,7 +1465,7 @@ ul.sub-menu li a {
 .newsletter-left {
     height: 325px;
     width: 100%;
-    background-color: #7beec7;
+    background-color: #a9a9a9;
     display: table;
     text-align: center;
 }
@@ -1500,7 +1486,7 @@ ul.sub-menu li a {
     position: relative;
     height: 325px;
     width: 100%;
-    background-color: #7beec7;
+    background-color: #a9a9a9;
     display: table;
     text-align: center;
 }
@@ -1523,13 +1509,13 @@ ul.sub-menu li a {
     padding-right: 20px;
 }
 .newsletter-right-inner input:focus {
-    border: 1px solid #7beec7;
+    border: 1px solid #a9a9a9;
 }
 .newsletter-right-inner input[type=submit] {
     margin-top: 15px;
     max-width: 175px;
     margin: auto;
-    background: #7beec7;
+    background: #a9a9a9;
     border: 0;
     margin-top: 30px;
     color: #fff;
@@ -1573,7 +1559,7 @@ ul.sub-menu li a {
     text-align: center;
 }
 .tabs-wrapper {
-    background-color: #7beec7;
+    background-color: #a9a9a9;
     min-height: 330px;
     width: 100%;
     padding: 40px;
@@ -1633,7 +1619,7 @@ ul.sub-menu li a {
     width: 100%;
 }
 .our-story-content {
-    background-color: #7beec7;
+    background-color: #a9a9a9;
     margin-top: 50px;
     height: 400px;
     display: table;
@@ -1691,7 +1677,7 @@ ul.sub-menu li a {
 }
 .member:hover .overlay-member-content-inner {
     opacity: 1;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
 }
 span.position {
@@ -1922,7 +1908,7 @@ ul.client-thumb-2 li a img:hover{
     transition-duration: 200ms
 }
 .works-filter a.active {
-    color: #7beec7;
+    color: #a9a9a9;
 }
 .works-filter a:before {
     padding-right: 20px;
@@ -2302,15 +2288,15 @@ span.press {
 .single-project-slider .single-controls .arrow-left a:hover,
 .single-project-slider .single-controls .arrow-right a:hover {
     color: #fff;
-    background: #7beec7;
-    border: 1px solid #7beec7;
+    background: #a9a9a9;
+    border: 1px solid #a9a9a9;
 }
 .single-project-slider .single-controls .arrow-right {
     right: 20px;
 }
 .single-project-slider .slider-controls a:hover,
 .slider-controls a i:hover {
-    color: #7beec7;
+    color: #a9a9a9;
 }
 .single-portfolio-wrapper {
     margin-top: 50px
@@ -2398,7 +2384,7 @@ ul.social-buttons li {
     transform: translate(100%, 0);
     transition: all .3s ease-in-out;
     font-size: 10px;
-    background: #7beec7;
+    background: #a9a9a9;
 }
 
 /*Similar Project*/
@@ -2579,7 +2565,7 @@ ul.social-buttons li {
 }
 .share-buttons ul li a:hover,
 .share-buttons ul li a i:hover {
-    color: #7beec7;
+    color: #a9a9a9;
 }
 .blog-tags ul {
     padding: 0 0 0 6px;
@@ -2599,7 +2585,7 @@ ul.social-buttons li {
 .blog-tags ul li a:hover,
 .blog-tags ul li:hover {
     color: #fff;
-    background: #7beec7;
+    background: #a9a9a9;
 }
 .full-blog-content {
     margin-top: 30px;
@@ -2616,7 +2602,7 @@ ul.social-buttons li {
     margin-right: 10px;
     margin-top: 8px;
     text-align: center;
-    font-family: 'azedobold';
+    font-family: 'Arial';
 }
 /*Blog Timeline*/
 .cbp_tmtimeline {
@@ -2750,7 +2736,7 @@ ul.social-buttons li {
 .inner-map .inner-map-content h1 {
     text-align: center;
     font-size: 60px;
-    font-family: 'azedobold', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 .inner-map .inner-map-content hr {
     float: none;
@@ -2798,7 +2784,7 @@ ul.social-buttons li {
     height: 48px;
     outline: 0;
     border: 0;
-    background-color: #7beec7;
+    background-color: #a9a9a9;
     font-size: 18px;
     color: #fff;
     font-weight: 500;
@@ -2864,7 +2850,7 @@ input[type="text"] {
     padding: 8px;
 }
 .page-error p a {
-    color: #7beec7;
+    color: #a9a9a9;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -2914,7 +2900,7 @@ ul.social-media li a i {
     color: #111111;
 }
 ul.social-media li a i:hover {
-    color: #7beec7;
+    color: #a9a9a9;
 }
 .copyright-mark {
     margin-top: 50px;
