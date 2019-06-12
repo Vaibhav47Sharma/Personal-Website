@@ -161,9 +161,7 @@
                     Forward network with Group Lasso and ii) LSTM network with Group Lasso.
                     Each of the above architecture is designed in such a way that the weights of
                     competitor stocked can be interpreted and checked if they are significant in the
-                    final predicted value. Analyzing relations between EBay, Amazon, Apple for
-                    predicting the stocks of Facebook we able to detect non-zero stock values of the
-                    competitors.
+                    final predicted value. We used the stocks of EBay, Amazon, and Apple for predicting the stocks of Facebook. We got non-zero weights values for EBay, Amazon, and Apple thus indicating Granger Causality.
                         <br/><br/>
 
                     <b>Conclusion</b><br>
@@ -173,7 +171,7 @@
                     variables pre-specified. The LSTM, although a bit complex learns the number
                     of lag variables required for the final prediction once it is provided with K - lag
                     values.<br>
-                    <img src="img/granger_causal_results.jpg" alt="Portfolio Item"><br><br>
+                    <img src="img/granger_weights.jpg"><br><br>
                     Thus, we would like to conclude saying that building the right model by selecting the best hyper parameters helped in identifying Granger causal relationship even in a constantly varying dataset like stock prices. This implementation
                     could be used in various other domains having more predictable outcomes to identify such relationship with a very high accuracy.
 
